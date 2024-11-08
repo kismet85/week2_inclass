@@ -23,6 +23,7 @@ public class HelloApplication extends Application {
 
         Scene scene = new Scene(fxmlLoader.load(), 300, 400);
         stage.setScene(scene);
+        stage.setTitle("Ismet Ymeri!");
         stage.show();
     }
 
